@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+
+    android:fillViewport="false"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Learning to Enhance the Basic Skills"
+                android:id="@+id/textView1"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/w"
+                android:id="@+id/imageView7" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1)Throw with speed and accuracy by spinning the ball"
+                android:textStyle="bold"
+                android:id="@+id/textView8"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_below="@+id/imageView7"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A good rugby throw is powerful and quick, which protects your teammate from a nasty tackle as they watch the ball approaching them. Practice throwing to your side, not in front of you. To get a good throw, use both hands and focus on accuracy first, hitting your teammates right in the chest every time. Once you feel accurate you can start working on a professional-looking spin. To throw from the right hand:
+\n\nStart with the ball horizontally in front of you. Place your right hand on the back third of the ball, so your palm faces down and your thumb towards your target. Place your left hand on the bottom left half of the ball, thumb pointing left.\n\nBring the ball to your right side, keeping the point of the ball still roughly pointing at your target.\n\nUsing your left hand for aim and right for power, bring the ball across your body and towards your target.
+\n\nAs your hands are almost extended, curl your right hand back towards you, spinning the ball.\n\nRelease the ball with both hands simultaneously, rotating your wrist completely over on the follow-through. Both arms should be fully extended and pointed at your target, and your arms should stay low, around belly height. the whole time.
+"               android:layout_marginTop="320dp"
+                android:id="@+id/textView8"
+                android:textColor="#000000"
+
+
+                android:padding="10dp"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/q"
+                android:id="@+id/imageView7" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2)Tackle with your whole body, not just your arms."
+                android:textStyle="bold"
+                android:id="@+id/textView8"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_below="@+id/imageView7"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tackling is a skill that can be developed over a lifetime, but the basics are simple. You want to let your whole body do the work, not just your arms, to protect yourself and to ensure that you bring the guy down. Practice doing the following steps near simultaneously -- keeping your head up, driving with the shoulder, wrapping your arms, and driving to the ground:
+•	Set up on the balls of your feet. Make sure you are in a good athletic position for the hit -- knees bent, muscles relaxed, on your toes.
+•	Keep your head up and aim for their thighs/stomach. Keep your head up to see contact coming and line up the hit. This is a crucial step for safety.
+•	Aim to make contact with your shoulder right at their upper thigh. Slide your head next to their butt to keep it safe and drive in with your shoulder.
+•	Wrap your arms around their thighs and pull back. Pull their thighs into a deep hug -- this causes them to lose balance easily.
+•	Drive with your legs to bring them down. Once you've got your head in place and your arms wrapped, you want to push with your legs to bring them down.
+"               android:layout_marginTop="320dp"
+                android:id="@+id/textView8"
+                android:textColor="#000000"
+
+
+                android:padding="10dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/e"
+                android:id="@+id/imageView7" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3) Attack rucks to shift the balance of momentum in the game. "
+                android:textStyle="bold"
+                android:id="@+id/textView8"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:layout_below="@+id/imageView7"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A ruck is your regular chance to keep or steal possession, and a good rucker is an invaluable asset on the team. If you see a teammate go down with the ball and you're nearby, try and be the first one in the ruck. Set one foot over the ball so that it is underneath you, then lean down into a low athletic position. When you've made contact with someone, win rucks using strength and leverage:
+•	Get underneath the opponent and push up and out. If you can get your shoulders or head under their chest, you can push them up to throw them off balance, then back to remove them from the ruck.
+•	Push teammates from behind to win contested rucks. If it looks like your team needs a boost, push your ruck through like a minor-scrum. Remember, however, that committing more than 2-3 people to a ruck leaves a lot of holes in the defense if you lose.
+•	Keep your feet moving through the ruck. To really crush rucks, chop your feet and push forward with every step. Imagine running straight through the player to the other side. This is called 'clearing' a ruck, and it opens up a lot of space. If you're on defense and you can clear a ruck, even if you can't win the ball immediately, you'll throw the other team into disarray.
+"
+                android:layout_marginTop="330dp"
+                android:id="@+id/textView8"
+                android:textColor="#000000"
+
+
+                android:padding="10dp"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/r"
+                android:id="@+id/imageView7" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4) Always be in a position of support for teammates."
+                android:textStyle="bold"
+                android:id="@+id/textView8"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:layout_below="@+id/imageView7"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rugby is not an individually dominated sport. Even the best player will be unable to do anything without the support of teammates, as there are very few times a solo athlete has space or time to make a play themselves. On both defense and offense, you should be in the best possible place to support your teammates, no matter what:
+•	On defense, you need to be in a horizontal line with your teammates, sliding left and right to close up any holes the opponent might try to push through. Once a teammate makes a tackle, you should either jump in the ruck if it is open or winnable or slide to either side of the teammate to make sure the other team doesn't exploit the gap while he is down from the tackle,
+•	On offense, you need to spread out, forcing the other team to cover many angles. When a teammate is running, make sure you are always behind them and they have 1-2 people in passing range. If they get tackled, they may try a quick pass to you as they go down, leaving you plenty of time to run.
+"
+                android:layout_marginTop="330dp"
+                android:id="@+id/textView8"
+                android:textColor="#000000"
+
+
+                android:padding="10dp"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

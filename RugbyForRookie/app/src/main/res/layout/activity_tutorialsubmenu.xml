@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+
+    android:fillViewport="false"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Text atas -->
+
+        <!-- Submenu 1 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="100dp">
+
+
+            <ImageView
+                android:id="@+id/thumbnail1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ba" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="switcherTutor1"
+                android:id="@+id/buttonMenu1"
+                android:background="#00000000"
+                android:textColor="#ffffff"
+               />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#87000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kick-Off"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:id="@+id/textView21"
+                android:textAlignment="center"
+                android:gravity="center" />
+
+        </RelativeLayout>
+
+        <!-- submenu 2 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="100dp"
+            android:layout_marginTop="2dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/thumbnail1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bb" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="switcherTutor2"
+                android:id="@+id/buttonMenu1"
+                android:background="#00000000"
+                android:textColor="#ffffff"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#87000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Passing"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:id="@+id/textView22"
+                android:textAlignment="center"
+                android:gravity="center" />
+
+        </RelativeLayout>
+
+        <!-- submenu 3 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="100dp"
+
+            android:layout_marginTop="2dp">
+
+
+            <ImageView
+                android:id="@+id/thumbnail1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bc" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="switcherTutor3"
+                android:id="@+id/buttonMenu1"
+                android:background="#00000000"
+                android:textColor="#ffffff"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#87000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tackle"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:id="@+id/textView23"
+                android:textAlignment="center"
+                android:gravity="center" />
+
+        </RelativeLayout>
+        <!-- submenu 4 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="100dp"
+
+            android:layout_marginTop="2dp">
+
+
+            <ImageView
+                android:id="@+id/thumbnail1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bd" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="switcherTutor4"
+                android:id="@+id/buttonMenu1"
+                android:background="#00000000"
+                android:textColor="#ffffff"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#87000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Try"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:id="@+id/textView24"
+                android:textAlignment="center"
+                android:gravity="center" />
+
+        </RelativeLayout>
+        <!-- submenu 5 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="100dp"
+
+            android:layout_marginTop="2dp">
+
+
+            <ImageView
+                android:id="@+id/thumbnail1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/be" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="switcherTutor5"
+                android:id="@+id/buttonMenu1"
+                android:background="#00000000"
+                android:textColor="#ffffff"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#87000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Conversion"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:id="@+id/textView25"
+                android:textAlignment="center"
+                android:gravity="center" />
+
+        </RelativeLayout>
+        <!-- submenu 6-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="100dp"
+
+            android:layout_marginTop="2dp">
+
+
+            <ImageView
+                android:id="@+id/thumbnail1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/aa" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="switcherTutor6"
+                android:id="@+id/buttonMenu1"
+                android:background="#00000000"
+                android:textColor="#ffffff"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#87000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Penalty"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:id="@+id/textView26"
+                android:textAlignment="center"
+                android:gravity="center" />
+
+        </RelativeLayout>
+        <!-- submenu 7 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="100dp"
+
+            android:layout_marginTop="2dp">
+
+
+            <ImageView
+                android:id="@+id/thumbnail1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="switcherTutor7"
+                android:id="@+id/buttonMenu1"
+                android:background="#00000000"
+                android:textColor="#ffffff"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#87000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="In-Touch"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:id="@+id/textView27"
+                android:textAlignment="center"
+                android:gravity="center" />
+
+        </RelativeLayout>
+        <!-- submenu 8 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="100dp"
+
+            android:layout_marginTop="2dp">
+
+
+            <ImageView
+                android:id="@+id/thumbnail1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bh" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="switcherTutor8"
+                android:id="@+id/buttonMenu1"
+                android:background="#00000000"
+                android:textColor="#ffffff"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#87000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Line-out"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:id="@+id/textView28"
+                android:textAlignment="center"
+                android:gravity="center" />
+
+        </RelativeLayout>
+        <!-- submenu 9 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="100dp"
+
+            android:layout_marginTop="2dp">
+
+
+            <ImageView
+                android:id="@+id/thumbnail1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/w" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="switcherTutor9"
+                android:id="@+id/buttonMenu1"
+                android:background="#00000000"
+                android:textColor="#ffffff"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#87000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Scrum"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:id="@+id/textView29"
+                android:textAlignment="center"
+                android:gravity="center" />
+
+        </RelativeLayout>
+        <!-- submenu 10 -->
+
+
+    </LinearLayout>
+</ScrollView>

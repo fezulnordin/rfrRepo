@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <VideoView
+            android:layout_width="wrap_content"
+            android:layout_height="241dp"
+            android:id="@+id/videoView"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+
+        android:fillViewport="false"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Passing"
+                    android:id="@+id/textView1"
+                    android:textSize="40dp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="#000000"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Understand the ball can only be thrown backward or sideways. To score tries, offense teams form big horizontal lines, passing sideways and backward until they expose a hole in the defense and push forward. This is the big rule to remember when playing rugby. You cannot pass the ball forward with your hands or it is an automatic penalty. Whenever passing, you usually pass the ball across your body to get power and throw the ball diagonally to your teammate. \n\nDropping or bobbling the ball counts as a forward pass if it hits your hands then hits the ground in front of you. You can, of course, carry the ball forward. However, any passes by the hand cannot be forward."
+
+                    android:id="@+id/textView"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="textStart"
+                    android:layout_below="@+id/textView1"
+                    android:layout_alignLeft="@+id/textView1"
+                    android:layout_alignStart="@+id/textView1"
+                    android:layout_marginRight="10dp"/>
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

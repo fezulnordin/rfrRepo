@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <VideoView
+            android:layout_width="wrap_content"
+            android:layout_height="241dp"
+            android:id="@+id/videoView"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+
+        android:fillViewport="false"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="In-Touch"
+                    android:id="@+id/textView1"
+                    android:textSize="40dp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="#000000"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="When the ball goes outside the line. In-touch will happen when the ball goes out of the lineout during the open play or you can get that option during the penalty. When you kick the ball straight to the outside line and your position is outside the 22-line, the referee will call the line-out at the position of the kicking.\n\nIf the referee get give the penalty you can choose in-touch as an optionIf a ball goes out of bounds the referee will call for a line-out."
+                    android:id="@+id/textView"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="textStart"
+                    android:layout_below="@+id/textView1"
+                    android:layout_alignLeft="@+id/textView1"
+                    android:layout_alignStart="@+id/textView1"
+                    android:layout_marginRight="10dp"/>
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

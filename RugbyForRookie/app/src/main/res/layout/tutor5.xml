@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <VideoView
+            android:layout_width="wrap_content"
+            android:layout_height="241dp"
+            android:id="@+id/videoView"
+
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+
+        android:fillViewport="false"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Conversion / Penalty"
+                    android:id="@+id/textView1"
+                    android:textSize="40dp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="#000000"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:text="At each end is a 10-meter zone known as the 'try-zone', there are a goal post that you can use to get the point.' If you get the ball into your opponent's try zone you get 5 points, as well as a chance to get a conversion kick.When a try is scored, an opportunity is given to the scoring team to make a conversion kick which is worth 2 points.\n\nThe other way of gaining extra points for Your team is with penalty kicks, this is awarded when a member of the opposing team breaks a rule or if the play of the game is stopped by more than one member of that team. a Penalty kick is worth 3 Points"
+                    android:id="@+id/textView"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="textStart"
+                    android:layout_below="@+id/textView1"
+                    android:layout_alignLeft="@+id/textView1"
+                    android:layout_alignStart="@+id/textView1"
+                    android:layout_marginRight="10dp"/>
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

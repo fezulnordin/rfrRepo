@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <VideoView
+            android:layout_width="wrap_content"
+            android:layout_height="241dp"
+            android:id="@+id/videoView"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+
+        android:fillViewport="false"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tackle"
+                    android:id="@+id/textView1"
+                    android:textSize="40dp"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="#000000"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tackle the ball carrier to stop the opponent's attack. Rugby defense is all about making tackles. You can only hit the player currently holding the ball, and you cannot block or screen the other team or other players. When you tackle an opponent, your goal is to bring them to the ground as quickly as possible, preferably with teammates around to quickly help win the ball. \n\nGeneral tackling rules include:\n1) You must tackle someone below shoulder height.\n2) You must wrap your hands around the player, not just spear them with your shoulder.\n3) You cannot pick up and drop players, especially on their head or neck.\n4) Once down, you must return to your feet before trying to win the ball from someone you've tackled."
+
+                    android:id="@+id/textView"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="textStart"
+                    android:layout_below="@+id/textView1"
+                    android:layout_alignLeft="@+id/textView1"
+                    android:layout_alignStart="@+id/textView1"
+                    android:layout_marginRight="10dp"/>
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
